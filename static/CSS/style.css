@@ -1,2 +1,6 @@
 .bg-primary {
-    background-color: #FED100!important;
+  background-color: #fed100 !important;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
