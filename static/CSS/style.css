@@ -4,3 +4,9 @@
 .nav-link:hover {
   text-decoration: underline;
 }
+.men {
+  z-index: 100;
+}
+.gazel {
+  z-index: 50;
+}
