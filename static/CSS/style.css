@@ -4,6 +4,13 @@
 .nav-link:hover {
   text-decoration: underline;
 }
+.display-1 {
+  font-weight: 700;
+  line-height: 1;
+}
+.display-6 {
+  font-weight: 500;
+}
 .men {
   z-index: 100;
 }
