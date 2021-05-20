@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Квартирные переезды</title>
-    <link rel="stylesheet" href="static/CSS/bootstrap.min.css" />
-    <link rel="stylesheet" href="static/CSS/style.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
   </head>
   <body>
-    <header class="bg-primary vw-100 vh-100">
-      <div class="container-sm position-relative vh-100">
+    <header class="bg-primary">
+      <div class="container-sm position-relative h-100">
         <!-- Навигационное меню -->
-        <nav class="navbar navbar-expand-lg navbar-light pt-4">
+        <nav class="navbar navbar-expand-md navbar-light pt-4">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">MOVEE</a>
             <button
@@ -26,10 +26,10 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-5" id="navbarNav">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Цены</a>
+                  <a class="nav-link" href="#">Цена</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Автопарк</a>
@@ -47,13 +47,17 @@
             </span>
           </div>
         </nav>
+        <!-- / Навигационное меню -->
         <div>
-          <h1 class="display-1 mt-5">Квартирные <br />перезды</h1>
-          <p class="display-6 mt-3">По Москве и области</p>
+          <h1 class="display-2 mt-lg-5 text-center text-lg-start">
+            Квартирные<br />переезды <br /><span>по Москве и области</span>
+          </h1>
         </div>
+        <!-- Грузчик -->
         <div class="position-absolute bottom-0 start-50 translate-middle-x men">
-          <img src="static/images/Rectangle3.png" alt="" />
+          <img src="static/images/Rectangle3.png" class="ms-lg-5" alt="" />
         </div>
+        <!-- Газель -->
         <div
           class="
             position-absolute
@@ -66,8 +70,75 @@
         >
           <img src="static/images/Rectangle2.png" alt="" />
         </div>
+
+        <a
+          href="#"
+          class="
+            btn btn-secondary
+            rounded-0
+            position-absolute
+            px-5
+            py-3
+            block-btn
+            mt-5
+          "
+          >Заказать</a
+        >
+        <!-- Блок с иконками -->
+        <div
+          class="
+            block-ico
+            d-flex
+            position-absolute
+            bottom-0
+            mb-5
+            d-none d-lg-flex
+          "
+        >
+          <div>
+            <img
+              src="static/images/ico/truck-1.png"
+              class="float-start m-1 img-1"
+              alt=""
+            />
+            <p class="lh-1"><small>Более 800 переездов</small></p>
+          </div>
+          <div>
+            <img
+              src="static/images/ico/triggerTwo-1.png"
+              class="float-start m-1"
+              alt=""
+            />
+            <p class="lh-1"><small>Бережная упаковка</small></p>
+          </div>
+          <div class="flex-fill">
+            <img
+              src="static/images/ico/money-1.png"
+              class="float-start m-1"
+              alt=""
+            />
+            <p class="lh-1">
+              <small>Фиксированная <br />цена</small>
+            </p>
+          </div>
+        </div>
+        <!-- Кнопка телефон -->
+        <div class="position-absolute d-none d-lg-block phone">
+          <div class="position-relative w-100 h-100">
+            <div class="position-absolute rounded-circle bg-phone"></div>
+            <div
+              class="position-absolute w-100 h-100 rounded-circle bg-phone-1"
+            ></div>
+            <img
+              src="static/svg/Vector.svg"
+              class="position-absolute phone-vector"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </header>
+    <!-- Вторая секция -->
     <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>

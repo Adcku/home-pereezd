@@ -1,14 +1,29 @@
 .bg-primary {
   background-color: #fed100 !important;
 }
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  font-size: large;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-weight: bold;
+}
+.navbar-text {
+  font-size: large;
+}
 .nav-link:hover {
   text-decoration: underline;
 }
-.display-1 {
+
+.display-2 {
   font-weight: 700;
   line-height: 1;
 }
-.display-6 {
+.display-2 span {
+  font-size: 0.4em;
   font-weight: 500;
 }
 .men {
@@ -16,4 +31,126 @@
 }
 .gazel {
   z-index: 50;
+}
+
+.block-btn {
+  width: 250px;
+  z-index: 150;
+}
+.btn-secondary {
+  background-color: #ff352b;
+  border-color: #ff352b;
+}
+.btn-secondary:hover {
+  background-color: #ce150b;
+  border-color: #ce150b;
+}
+.btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+  background-color: #ce150b;
+  border-color: #ce150b;
+  box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+.block-ico {
+  width: 410px;
+}
+.block-ico > div > img {
+  width: 30px;
+}
+.block-ico .img-1 {
+  width: 40px;
+}
+.phone {
+  bottom: 50px;
+  right: 200px;
+  width: 100px;
+  height: 100px;
+}
+.bg-phone {
+  width: 75%;
+  height: 75%;
+  background: #3d9be9;
+  top: 12px;
+  left: 12px;
+}
+.bg-phone-1 {
+  background: rgba(61, 155, 233, 0.3);
+}
+.phone-vector {
+  width: 40%;
+  top: 30px;
+  left: 30px;
+}
+
+.border-primary {
+  border-color: #fed100 !important;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #fed100;
+  border-color: #fed100;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fed100;
+  border-color: #fed100;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: #ebebeb;
+}
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: black;
+  background-color: #fff;
+  border-color: #fed100;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #fed100;
+  border-color: #fed100;
+}
+.btn-line {
+  display: block;
+  width: 150px;
+}
+.star {
+  display: block;
+  width: 80px;
+  height: 18px;
+  background: url("../images/ico/star.png");
+}
+.form-check-input:checked {
+  background-color: #ff352b;
+  border-color: black;
+}
+
+@media (max-width: 992px) {
+  header {
+    height: 100vh;
+  }
+  .men {
+    bottom: 100px !important;
+  }
+  .men img {
+    height: 420px;
+  }
+  .block-btn {
+    width: 94%;
+    bottom: 70px !important;
+    z-index: 150;
+  }
+  .btn-line {
+    width: 100px;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    height: 640px;
+  }
 }
